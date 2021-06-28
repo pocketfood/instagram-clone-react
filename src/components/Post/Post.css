@@ -1,0 +1,85 @@
+/* src/components/Post/Post.css */
+
+  body {
+    margin: 'auto';
+    display: 'flex';
+    width: 'fit-content'
+  }
+  small{
+    margin-left: 5px;
+  }
+  .Like{
+    float: right;
+    margin-top: -7px;
+  }
+  .Post {
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-left : 20%;
+    margin-right: 20%;
+  }
+  p {
+    margin-left: 3%;
+  }
+  .Post-user {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+  }
+  .Post-user-avatar {
+    width: 50px;
+    height: 50px;
+  }
+  .Post-user-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .Post-user-nickname {
+    margin-left: 12px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+  }
+  .Post-image-bg {
+    background-color: #efefef;
+  }
+  .Post-image img {
+    display: flex;
+    width: 100%;
+  }
+  .Post-verified {
+    display: block;
+    background-image: url(../../instagram-verified-trans.png);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float:right;
+    margin-left: 5px;
+    align-items: center;
+    margin-top: 4px;
+  }
+  .Post-caption {
+    padding: 5px 5px;
+    
+  }
+  .Post-user-stats {
+    padding-left: 2%;
+    
+  }
+  .Post-caption strong {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+  }
+  .Panel {
+    background-color: #e6e6e6;
+    height: 30px;
+  }
+  .vjs-fade-out {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
