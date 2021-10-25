@@ -1,0 +1,20 @@
+* src/components/Header/Header.css */
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: right;
+    }
+    .Footer-menu {
+        display: flex;
+        border-radius: 3px;
+        border: 1px solid #e6e6e6;
+        background-color: #fff;
+        margin-bottom: 20px;
+        margin-left : 20%;
+        margin-right: 20%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
