@@ -17,6 +17,10 @@
     import ThumbDownSharpIcon from '@material-ui/icons/ThumbDownSharp';
 
 
+    function okaybutton() {
+      alert('You clicked me!');
+    }
+
 
     class Post extends Component {
       render() {
@@ -65,7 +69,7 @@
             checkedIcon={<ThumbDownSharpIcon />}
             name="checkedH" />}
             label=""/>
-
+            
 
             </div>
             <small>05/2/2021 6:00pm</small>
@@ -81,6 +85,7 @@
                 <a className="Post-verified"></a> 
                 </div>
                 <small> 05/2/2021 6:01pm</small>
+
               </div> 
               <p>Sometimes you just have to leave the city.</p>
                 <div className="Post-user-stats">
