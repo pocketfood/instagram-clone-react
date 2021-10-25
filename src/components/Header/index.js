@@ -13,6 +13,12 @@
                     Instagram
                   </a>
                 </div>
+                <div className="Nav-account">
+                  <a className="user" href="/account"> 
+                  </a>
+                  <a className="upload-button" href="#"> 
+                  </a>
+                </div>
               </div>
             </nav>
         );

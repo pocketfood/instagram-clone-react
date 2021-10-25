@@ -28,3 +28,31 @@
       width: 176px;
       text-indent: -1000%
     }
+    .Nav-account {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 80%;
+      margin-top: 1px;
+      float:right;
+    }
+    .upload-button {
+      display: flex;
+      background-image: url(../../upload4.png);
+      background-size: 35px 35px;
+      background-repeat: no-repeat;
+      flex-direction: row-reverse;
+      height: 35px;
+      width: 35px;
+      float:right;
+      margin-right: 10px;
+    }
+    .user {
+      display: flex;
+      background-image: url(../../user.png);
+      background-size: 35px 35px;
+      background-repeat: no-repeat;
+      flex-direction: row-reverse;
+      height: 35px;
+      width: 35px;
+      float:right;
+    }

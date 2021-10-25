@@ -12,6 +12,7 @@
           <Header />
           <div>
             <Post />
+            <Post />
           </div>
         </div>
       );
