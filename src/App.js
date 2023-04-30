@@ -1,5 +1,3 @@
-  // src.App.js
-
   import React, { Component } from 'react';
   import './App.css';
   import Header from './components/Header';
@@ -12,7 +10,6 @@
         <div>
           <Header />
           <div>
-            <Post />
             <Post />     
           </div>
           <Footer />

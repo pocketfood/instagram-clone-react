@@ -1,5 +1,3 @@
-/* src/components/Post/Post.css */
-
   body {
     margin: 'auto';
     display: 'flex';
@@ -52,7 +50,7 @@
   }
   .Post-verified {
     display: block;
-    background-image: url(../../instagram-verified-trans.png);
+    background-image: url("../../instagram-verified-trans.png");
     background-size: 16px 16px;
     background-repeat: no-repeat;
     height: 16px;

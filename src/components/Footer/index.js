@@ -1,4 +1,3 @@
- // src/components/Header/index.js
  import React from "react";
  import "./Footer.css";
 

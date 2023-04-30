@@ -1,19 +1,18 @@
-    // src/components/Post/index.js
     import React, { Component } from "react";
     import "./Post.css";
     import jsonData from "./Data.json";
 
 
-    // Like button
+
     import FormControlLabel from '@material-ui/core/FormControlLabel';
     import Checkbox from '@material-ui/core/Checkbox';
     import Favorite from '@material-ui/icons/Favorite';
     import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
-    // Share button
+
     import ShareIcon from '@material-ui/icons/Share';
-    // Link button
+
     import LinkSharpIcon from '@material-ui/icons/LinkSharp';
-    // thumb buttons
+
     import ThumbUpSharpIcon from '@material-ui/icons/ThumbUpSharp';
     import ThumbDownSharpIcon from '@material-ui/icons/ThumbDownSharp';
     import { Divider } from "@material-ui/core";
